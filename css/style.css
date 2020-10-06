@@ -48,7 +48,8 @@ nav a:hover{
   transition: top 1s ease-out;
   z-index: 1;
 
-  /*Your code here*/
+  position: absolute;
+  top: -40px;
 }
 
 /*Your Code Here*/
