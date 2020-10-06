@@ -30,13 +30,15 @@ nav li{
 nav a{
   color: black;
   font-weight: bold;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
-
+nav a:hover{
+  text-decoration: underline;
+}
 
 .skip a{
   background: white;
@@ -51,14 +53,16 @@ links in the navigation are in the hover or focus state.*/
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
-
+.skip a:focus{
+  top:0;
+}
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 
 
 nav{
   background-color: #ddd;
-  padding: 25px 0; 
+  padding: 25px 0;
   text-align: left;
 }
 
@@ -77,7 +81,7 @@ footer{
 }
 
 header{
-  background-attachment: fixed; /* Parallax effect */     
+  background-attachment: fixed; /* Parallax effect */
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
@@ -86,7 +90,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
- 
+
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -161,7 +165,7 @@ background-color: rgba(255, 255, 255, .8);
 
 /*You do not need to modify any code below this line.
 It is included for accessibility to turn off animations
-and movement for people who have modified their 
+and movement for people who have modified their
 preferences to reduce motion.*/
 
 @media screen and (prefers-reduced-motion: reduce){
